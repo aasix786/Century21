@@ -24,15 +24,8 @@ class AdminController extends Controller
 {
     //
     public function index(){
-        $data['title'] = 'Welcome to Dashboard';
-        $data['module'] = 'Home';
-        $data['page'] = 'Dashboard';
-        $data['workouts'] = \App\Workout::all();
-        $data['challenges'] = \App\Challenge::all();
-        $data['beginnerChallenges']= \App\BeginnerChallenge::all();
-        $data['users']= \App\Customer::all();
 
-        return view('dashboard', $data);
+        return view('dashboard');
     }
     public function get_team_members(){
         return view('team');

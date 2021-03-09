@@ -9,22 +9,22 @@
     <meta charset="utf-8" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{asset('user/favicon/apple-icon-57x57.png')}}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{asset('user/favicon/apple-icon-60x60.')}}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{asset('user/favicon/apple-icon-72x72.')}}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{asset('user/favicon/apple-icon-76x76.')}}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{asset('user/favicon/apple-icon-114x114.')}}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{asset('user/favicon/apple-icon-120x120.')}}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{asset('user/favicon/apple-icon-144x144.')}}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{asset('user/favicon/apple-icon-152x152.')}}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('user/favicon/apple-icon-180x180.')}}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{asset('user/favicon/android-icon-192x192.')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('user/favicon/favicon-32x32.')}}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{asset('user/favicon/favicon-96x96.')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('user/favicon/favicon-16x16.')}}">
+    <link rel="manifest" href="{{asset('user/favicon/manifest.json')}}">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png')}}">
     <meta name="theme-color" content="#ffffff">
     <!-- Title -->
     <title>Agence immobilière à Braine-L&#039;Alleud, Braine-le-Château et Genappe - Cedimmo Immobilier</title>
@@ -32,39 +32,39 @@
     <!-- Font Families -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="assets/front/app/assets/css/icons.css" />
-    <link rel="stylesheet" href="assets/front/app/assets/fonts/stylesheet.css" />
+    <link rel="stylesheet" href="{{asset('user/assets/front/app/assets/css/icons.css')}}" />
+    <link rel="stylesheet" href="{{asset('user/assets/front/app/assets/fonts/stylesheet.css')}}" />
 
     <!-- Vendors -->
-    <link rel="stylesheet" href="assets/front/app/assets/vendors/vendors.min.css" />
+    <link rel="stylesheet" href="{{asset('user/assets/front/app/assets/vendors/vendors.min.css')}}" />
     <link rel="stylesheet"
-        href="../maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/css/line-awesome.min.css">
+          href="../maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/css/line-awesome.min.css">
 
     <!-- App Stylesheet -->
-    <link rel="stylesheet" href="assets/util/css/animate.css" />
-    <link rel="stylesheet" href="assets/front/app/assets/css/app.css" />
+    <link rel="stylesheet" href="{{asset('user/assets/util/css/animate.css')}}" />
+    <link rel="stylesheet" href="{{asset('user/assets/front/app/assets/css/app.css')}}" />
     <style>
         .grecaptcha-badge {
             opacity: 0;
             pointer-events: none;
         }
     </style>
-    <title>Agence immobilière à Braine-L'Alleud, Braine-le-Château et Genappe - Cedimmo Immobilier</title>
     <meta property="og:title"
-        content="Agence immobilière à Braine-L'Alleud, Braine-le-Château et Genappe - Cedimmo Immobilier" />
+          content="Agence immobilière à Braine-L'Alleud, Braine-le-Château et Genappe - Cedimmo Immobilier" />
     <meta property="og:description"
-        content="L'agence immobilière CEDIMMO est le spécialiste immobilier du Brabant Wallon, avec ses agences à Braine-l'Alleud, Braine-le-Château et Genappe. Passionnés par l'immobilier et élus deux fois &quot;agence de l'année&quot; du Brabant Wallon, nous sommes les partenaires privilégiés pour répondre à toutes demandes relatives à l'immobilier." />
+          content="L'agence immobilière CEDIMMO est le spécialiste immobilier du Brabant Wallon, avec ses agences à Braine-l'Alleud, Braine-le-Château et Genappe. Passionnés par l'immobilier et élus deux fois &quot;agence de l'année&quot; du Brabant Wallon, nous sommes les partenaires privilégiés pour répondre à toutes demandes relatives à l'immobilier." />
     <meta name="title"
-        content="Agence immobilière à Braine-L'Alleud, Braine-le-Château et Genappe - Cedimmo Immobilier" />
+          content="Agence immobilière à Braine-L'Alleud, Braine-le-Château et Genappe - Cedimmo Immobilier" />
     <meta name="description"
-        content="L'agence immobilière CEDIMMO est le spécialiste immobilier du Brabant Wallon, avec ses agences à Braine-l'Alleud, Braine-le-Château et Genappe. Passionnés par l'immobilier et élus deux fois &quot;agence de l'année&quot; du Brabant Wallon, nous sommes les partenaires privilégiés pour répondre à toutes demandes relatives à l'immobilier." />
+          content="L'agence immobilière CEDIMMO est le spécialiste immobilier du Brabant Wallon, avec ses agences à Braine-l'Alleud, Braine-le-Château et Genappe. Passionnés par l'immobilier et élus deux fois &quot;agence de l'année&quot; du Brabant Wallon, nous sommes les partenaires privilégiés pour répondre à toutes demandes relatives à l'immobilier." />
+    <meta property="og:url" content="https://cedimmo.be" />
     <meta name="keywords"
-        content="Cedimmo, Braine-L&#39;alleud, agence immobili&#232;re Braine-L&#39;Alleud, Agence immobili&#232;re Braine-Le-Ch&#226;teau, Agence immobili&#232;re Waterloo, Agence immobili&#232;re Genappe, home, immobilier, vente, location" />
+          content="Cedimmo, Braine-L&#39;alleud, agence immobili&#232;re Braine-L&#39;Alleud, Agence immobili&#232;re Braine-Le-Ch&#226;teau, Agence immobili&#232;re Waterloo, Agence immobili&#232;re Genappe, home, immobilier, vente, location" />
 
     <!--[if lt IE 11]>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
-		<![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <![endif]-->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-88196288-1"></script>
@@ -101,11 +101,12 @@
     </script>
     <noscript>
         <img height="1" width="1"
-            src="https://www.facebook.com/tr?id=1400787236730603&amp;ev=PageView&amp;noscript=1" />
+             src="https://www.facebook.com/tr?id=1400787236730603&amp;ev=PageView&amp;noscript=1" />
     </noscript>
     <!-- End Facebook Pixel Code -->
 
 </head>
+
 
 <body class="page team-page">
     <div class="preloader-wrapper">
@@ -264,7 +265,7 @@
                         </ul>
 
                         <ul class="nav-links">
-                            <li class="active"><a href="agence-cedimmo.html" class="link-item">L'agence</a></li>
+                            <li class="active"><a href="agence-cedimmo.blade.php" class="link-item">L'agence</a></li>
                             <li><a href="#" class="link-item" data-toggle="modal" data-target="#contactForm">Contact</a>
                             </li>
                             <li><a href="#" class="link-item link-btn btn btn-outlined-danger on-hover-white"
@@ -282,7 +283,7 @@
     <main class="page-team-main">
 
         <section class="page-banner-container inner-page-banner"
-            style="background-image: url('assets/front/app/assets/images/bg-team.jpg')">
+            style="background-image: url({{asset('user/assets/front/app/assets/images/bg-team.jpg')}})">
 
             <div class="container container-xl">
                 <div class="action-wrapper">
@@ -328,7 +329,7 @@
 
                         <div class="contact-block">
                             <a href="https://goo.gl/maps/KX1wsrAKmCA2" target="_blank" class="d-block">
-                                <img src="assets/front/app/assets/images/team/braine_l_alleud.png" alt=""
+                                <img src="{{asset('user/assets/front/app/assets/images/team/braine_l_alleud.png')}}" alt=""
                                     class="img-responsive">
                                 <p class="contact-name">BRAINE-L'ALLEUD</p>
                             </a>
@@ -339,7 +340,7 @@
                         <div class="contact-block">
                             <a href="https://www.google.com/maps/place/Cedimmo+Real+Estate+-+Agence+immobilière+de+Genappe/@50.5947024,4.4556111,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x47c3d351cbde48fb:0xe28d35e9e0d7e4c!2sChaussée+de+Bruxelles+2,+1470+Genappe!3b1!8m2!3d50.600103!4d4.4581324!3m4!1s0x47c3d3dc8c9d0ddd:0x681fb822ec7189e2!8m2!3d50.5947024!4d4.4577998"
                                 target="_blank" class="d-block">
-                                <img src="assets/front/app/assets/images/team/genappe.png" alt=""
+                                <img src="{{asset('user/assets/front/app/assets/images/team/genappe.png')}}" alt=""
                                     class="img-responsive">
                                 <p class="contact-name">GENAPPE</p>
                             </a>
@@ -348,7 +349,7 @@
 
                         <div class="contact-block">
                             <a href="https://goo.gl/maps/m1uijGnvmm32" target="_blank" class="d-block">
-                                <img src="assets/front/app/assets/images/team/braine_le_chateau.png" alt=""
+                                <img src="{{asset('user/assets/front/app/assets/images/team/braine_le_chateau.png')}}" alt=""
                                     class="img-responsive">
                                 <p class="contact-name">braine-lE-CHATEAU</p>
                             </a>
@@ -370,184 +371,25 @@
 
                     <div class="row">
 
-                        <div class="cs-col col-lg-3 col-md-4 col-sm-6">
-                            <div class="member-block">
-                                <div class="image-wrapper">
-                                    <img src="assets/front/app/assets/images/team/m1.png"
-                                        alt="<span>Yves</span> Demaerschalk" class="img-responsive">
+                        @if(sizeof($members) > 0)
+                            @foreach($members as $member)
+                                <div class="cs-col col-lg-3 col-md-4 col-sm-6">
+                                    <div class="member-block">
+                                        <div class="image-wrapper">
+                                            <img src="{{asset($member->image)}}"
+                                                 alt="<span>Yves</span> Demaerschalk" class="img-responsive">
+                                        </div>
+                                        <div class="overlay-text">
+                                            <p class="name"><span>{{$member->first_name}}</span> {{$member->last_name}}</p>
+                                            <p class="designation">{{$member->rank}}</p>
+                                            <a href="mailto:veronique@cedimmo.be" class="email">{{$member->email}}</a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="overlay-text">
-                                    <p class="name"><span>Yves</span> Demaerschalk</p>
-                                    <p class="designation"></p>
-                                    <a href="mailto:yves@cedimmo.be" class="email">yves@cedimmo.be</a>
-                                </div>
-                            </div>
-                        </div>
 
+                            @endforeach
+                            @endif
 
-                        <div class="cs-col col-lg-3 col-md-4 col-sm-6">
-                            <div class="member-block">
-                                <div class="image-wrapper">
-                                    <img src="assets/front/app/assets/images/team/m2.png"
-                                        alt="<span>Véronique</span> Raineri" class="img-responsive">
-                                </div>
-                                <div class="overlay-text">
-                                    <p class="name"><span>Véronique</span> Raineri</p>
-                                    <p class="designation">OFFICE MANAGER</p>
-                                    <a href="mailto:veronique@cedimmo.be" class="email">veronique@cedimmo.be</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="cs-col col-lg-3 col-md-4 col-sm-6">
-                            <div class="member-block">
-                                <div class="image-wrapper">
-                                    <img src="assets/front/app/assets/images/team/m3.png"
-                                        alt="<span>Cedric</span> Demaerschalk" class="img-responsive">
-                                </div>
-                                <div class="overlay-text">
-                                    <p class="name"><span>Cedric</span> Demaerschalk</p>
-                                    <p class="designation">AGENT IMMOBILIER</p>
-                                    <a href="mailto:cedric@cedimmo.be" class="email">cedric@cedimmo.be</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="cs-col col-lg-3 col-md-4 col-sm-6">
-                            <div class="member-block">
-                                <div class="image-wrapper">
-                                    <img src="assets/front/app/assets/images/team/m4.png"
-                                        alt="<span>Elodie</span> Zarola" class="img-responsive">
-                                </div>
-                                <div class="overlay-text">
-                                    <p class="name"><span>Elodie</span> Zarola</p>
-                                    <p class="designation">OFFICE MANAGER</p>
-                                    <a href="mailto:elodie@cedimmo.be" class="email">elodie@cedimmo.be</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="cs-col col-lg-3 col-md-4 col-sm-6">
-                            <div class="member-block">
-                                <div class="image-wrapper">
-                                    <img src="assets/front/app/assets/images/team/m5.png" alt="<span>Alyssa</span> Noël"
-                                        class="img-responsive">
-                                </div>
-                                <div class="overlay-text">
-                                    <p class="name"><span>Alyssa</span> Noël</p>
-                                    <p class="designation">OFFICE MANAGER</p>
-                                    <a href="mailto:alyssa@cedimmo.be" class="email">alyssa@cedimmo.be</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="cs-col col-lg-3 col-md-4 col-sm-6">
-                            <div class="member-block">
-                                <div class="image-wrapper">
-                                    <img src="assets/front/app/assets/images/team/m6.png"
-                                        alt="<span>Soraya</span> Marouani" class="img-responsive">
-                                </div>
-                                <div class="overlay-text">
-                                    <p class="name"><span>Soraya</span> Marouani</p>
-                                    <p class="designation">CONSEILLER IMMOBILIER</p>
-                                    <a href="mailto:soraya@cedimmo.be" class="email">soraya@cedimmo.be</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="cs-col col-lg-3 col-md-4 col-sm-6">
-                            <div class="member-block">
-                                <div class="image-wrapper">
-                                    <img src="assets/front/app/assets/images/team/m11.png"
-                                        alt="<span>Olivier</span> Debus" class="img-responsive">
-                                </div>
-                                <div class="overlay-text">
-                                    <p class="name"><span>Olivier</span> Debus</p>
-                                    <p class="designation">COM &amp; RP</p>
-                                    <a href="mailto:olivier@cedimmo.be" class="email">olivier@cedimmo.be</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="cs-col col-lg-3 col-md-4 col-sm-6">
-                            <div class="member-block">
-                                <div class="image-wrapper">
-                                    <img src="assets/front/app/assets/images/team/m12.jpg"
-                                        alt="<span>Fabien</span> Bultot" class="img-responsive">
-                                </div>
-                                <div class="overlay-text">
-                                    <p class="name"><span>Fabien</span> Bultot</p>
-                                    <p class="designation">CONSEILLER IMMOBILIER</p>
-                                    <a href="mailto:fabien@cedimmo.be" class="email">fabien@cedimmo.be</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="cs-col col-lg-3 col-md-4 col-sm-6">
-                            <div class="member-block">
-                                <div class="image-wrapper">
-                                    <img src="assets/front/app/assets/images/team/javier.jpg"
-                                        alt="<span>Javier</span> Alarcon" class="img-responsive">
-                                </div>
-                                <div class="overlay-text">
-                                    <p class="name"><span>Javier</span> Alarcon</p>
-                                    <p class="designation">CONSEILLER IMMOBILIER</p>
-                                    <a href="mailto:javier@cedimmo.be" class="email">javier@cedimmo.be</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="cs-col col-lg-3 col-md-4 col-sm-6">
-                            <div class="member-block">
-                                <div class="image-wrapper">
-                                    <img src="assets/front/app/assets/images/team/elodie.jpg"
-                                        alt="<span>Elodie</span> Figueroa" class="img-responsive">
-                                </div>
-                                <div class="overlay-text">
-                                    <p class="name"><span>Elodie</span> Figueroa</p>
-                                    <p class="designation">OFFICE MANAGER</p>
-                                    <a href="mailto:elodie@cedimmo.be" class="email">elodie@cedimmo.be</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="cs-col col-lg-3 col-md-4 col-sm-6">
-                            <div class="member-block">
-                                <div class="image-wrapper">
-                                    <img src="assets/front/app/assets/images/team/loic.jpg"
-                                        alt="<span>Loic</span> Stroobant" class="img-responsive">
-                                </div>
-                                <div class="overlay-text">
-                                    <p class="name"><span>Loic</span> Stroobant</p>
-                                    <p class="designation">CONSEILLER IMMOBILIER</p>
-                                    <a href="mailto:loic@cedimmo.be" class="email">loic@cedimmo.be</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="cs-col col-lg-3 col-md-4 col-sm-6">
-                            <div class="member-block">
-                                <div class="image-wrapper">
-                                    <img src="assets/front/app/assets/images/team/camille.jpg"
-                                        alt="<span>Camille</span>" class="img-responsive">
-                                </div>
-                                <div class="overlay-text">
-                                    <p class="name"><span>Camille</span></p>
-                                    <p class="designation">CONSEILLER IMMOBILIER</p>
-                                    <a href="mailto:camille@cedimmo.be" class="email">camille@cedimmo.be</a>
-                                </div>
-                            </div>
-                        </div>
 
 
 
@@ -854,7 +696,7 @@
                                     <li class="link-item">
                                         <a href="https://www.instagram.com/cedimmo_realestate/" target="_blank"
                                             class="link">
-                                            <img src="assets/front/app/assets/images/instagram-icon.png" alt=""
+                                            <img src="{{asset('user/assets/front/app/assets/images/instagram-icon.png')}}" alt=""
                                                 class="img-responsive">
                                         </a>
                                     </li>
@@ -904,7 +746,7 @@
                         <li><a href="Cookies.html">Cookies</a></li>
                     </ul>
                     <div class="footer-brand-logo">
-                        <img src="assets/front/app/assets/images/review-center.png" alt="" class="img-responsive">
+                        <img src="{{asset('user/assets/front/app/assets/images/review-center.png')}}" alt="" class="img-responsive">
                     </div>
                 </div>
 
@@ -1471,14 +1313,14 @@
                         <div class="modal-body">
 
                             <div class="hero-wrapper">
-                                <img src="assets/front/app/assets/images/rent-modal-bg-new.jpg" alt=""
+                                <img src="{{asset('user/assets/front/app/assets/images/rent-modal-bg-new.jpg')}}" alt=""
                                     class="img-responsive img-fullwidth">
                             </div>
 
                             <div class="row row-0">
                                 <div class="cs-col col-lg-7">
                                     <div class="logo-wrapper">
-                                        <img src="assets/front/app/assets/images/logo-large.png" alt=""
+                                        <img src="{{asset('user/assets/front/app/assets/images/logo-large.png')}}" alt=""
                                             class="img-responsive">
                                     </div>
                                 </div>
@@ -1537,7 +1379,7 @@
                             </g>
                         </svg>
                     </button>
-                    <img src="assets/front/app/assets/images/open-days.jpg" alt="" class="img-responsive img-fullwidth">
+                    <img src="{{asset('user/assets/front/app/assets/images/open-days.jpg')}}" alt="" class="img-responsive img-fullwidth">
                 </div>
             </div>
         </div>
@@ -1580,23 +1422,23 @@
     </script>
     <!-- Scripts -->
     <!-- Vendors -->
-    <script src="assets/front/app/assets/vendors/vendors.min.js" type="text/javascript"></script>
+    <script src="{{asset('user/assets/front/app/assets/vendors/vendors.min.js')}}" type="text/javascript"></script>
 
     <!-- Util -->
     <script src="../cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"
-        type="text/javascript"></script>
+            type="text/javascript"></script>
     <script src="../cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js" type="text/javascript"></script>
-    <script src="assets/util/js/util.js" type="text/javascript"></script>
-    <script src="assets/util/js/util-ui.js" type="text/javascript"></script>
-    <script src="assets/util/js/util-functions.js" type="text/javascript"></script>
-    <script src="assets/util/js/util-jquery.js" type="text/javascript"></script>
-    <script src="assets/util/js/util-globals.js" type="text/javascript"></script>
-    <script src="assets/util/js/util-uploader.js" type="text/javascript"></script>
+    <script src="{{asset('user/assets/util/js/util.js')}}" type="text/javascript"></script>
+    <script src="{{asset('user/assets/util/js/util-ui.js')}}" type="text/javascript"></script>
+    <script src="{{asset('user/assets/util/js/util-functions.js')}}" type="text/javascript"></script>
+    <script src="{{asset('user/assets/util/js/util-jquery.js')}}" type="text/javascript"></script>
+    <script src="{{asset('user/assets/util/js/util-globals.js')}}" type="text/javascript"></script>
+    <script src="{{asset('user/assets/util/js/util-uploader.js')}}" type="text/javascript"></script>
 
     <!-- App Scripts -->
-    <script src="assets/front/app/assets/js/app.min.js" type="text/javascript"></script>
+    <script src="{{asset('user/assets/front/app/assets/js/app.min.js')}}" type="text/javascript"></script>
     <script src="../www.google.com/recaptcha/apif62b.js?render=6LddbO8UAAAAANTvZFTOB3rnvTPNe8EuIuQ-SMgc"></script>
-    <script src="assets/util/plugins/jquery.cookie.js"></script>
+    <script src="{{asset('user/assets/util/plugins/jquery.cookie.js')}}"></script>
 
 
 
@@ -1681,35 +1523,48 @@
         }
     </script>
 
-    <script src="assets/util/plugins/jquery.cookie.js"></script>
     <script type="text/javascript">
+        var visitVideo = document.getElementById("visitVideo");
         $("document").ready(function () {
+            // $("header").addClass("navbar-absolute");
             $(".navbar-container").addClass("navbar-absolute");
             autoPlayYouTubeModal();
-            $(".navbar-container").addClass("navbar-bg-gradient"); //if banner dark gradient
+            // $(".twentytwenty-container").twentytwenty({default_offset_pct: 0.7});
 
+            $('.visitVideo, .visitMobileVideo').on('click', function (event) {
+                event.preventDefault();
+                $('#visitVideoModal').modal('show');
+                if (visitVideo.paused)
+                    visitVideo.play();
+                else
+                    visitVideo.pause();
+            });
+
+            $('#visitVideoModal').on('hidden.bs.modal', function (e) {
+                visitVideo.pause();
+            });
+
+            // loadRentModal();
+        });
+
+        function loadRentModal() {
             setTimeout(function () {
-
-                if ($.cookie('modal_shown') == null) {
-                    $.cookie('modal_shown', 'yes', {
+                if ($.cookie('rentmodal_shown') == null) {
+                    $.cookie('rentmodal_shown', 'yes', {
                         expires: 7,
                         path: '/'
                     });
-                    $('#agencyVideoModal').modal();
-
-                    $('#agencyVideoModal').on('hidden.bs.modal', function (e) {
-                        $(this).find('iframe').attr('src', '');
-                    })
+                    $('#rentModal').modal();
                 }
-            }, 4000);
-        });
+            }, 3000);
+        }
 
         function autoPlayYouTubeModal() {
             var trigger = $("body").find('.videoModalToggler');
             trigger.click(function () {
                 var theModal = $(this).data("target"),
                     videoSRC = $(this).attr("data-theVideo"),
-                    videoSRCauto = videoSRC + "?autoplay=1";
+                    videoSRCauto = videoSRC + "?allowfullscreen=1&autoplay=1";
                 $(theModal + ' iframe').attr('src', videoSRCauto);
                 $(theModal + ' button.close').click(function () {
                     $(theModal + ' iframe').attr('src', videoSRC);

@@ -10,9 +10,14 @@
                 <li class="list-divider"></li>
                 <li class="nav-small-cap"><span class="hide-menu">MANAGEMENT</span></li>
 
-                <li class="sidebar-item"> <a class="sidebar-link" href="ticket-list.html"
+                <li class="sidebar-item"> <a class="sidebar-link" href="{{url('team')}}"
                                              aria-expanded="false"><i data-feather="tag" class="feather-icon"></i><span
                                 class="hide-menu">TEAM
+                                </span></a>
+                </li>
+                <li class="sidebar-item"> <a class="sidebar-link" href="{{url('information-evening')}}"
+                                             aria-expanded="false"><i data-feather="tag" class="feather-icon"></i><span
+                                class="hide-menu">INFORMATION EVENING
                                 </span></a>
                 </li>
                 <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="app-chat.html"
